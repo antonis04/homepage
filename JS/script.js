@@ -1,4 +1,4 @@
-console.log("Cześć deweloperzy!");
+console.log("Cześć deweloperzy! ten kod jest juz w repozytorium git");
 
 // Pobranie przycisku i kontenera na zdjęcie
 let przycisk = document.querySelector(".button");
