@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moja pierwsza strona</title>
+    <link href="../CSS/style.css" rel="stylesheet" />
+    <link href="../CSS/footer.css" rel="stylesheet" />
+    <link href="../CSS/section.css" rel="stylesheet" />
+    <link href="../CSS/header.css" rel="stylesheet" />
+    <link href="../CSS/nav.css" rel="stylesheet" />
+    <link href="../CSS/table.css" rel="stylesheet" />
+    <link href="../CSS/button.css" rel="stylesheet" />
+    <script defer src="../js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1  class="header__title">Witaj na mojej stronie</h1>
+      </header>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="#o-mnie">O mnie</a></li>
+          <li class="nav__item"><a class="nav__link" href="#hobby">Hobby</a></li>
+          <li class="nav__item"><a class="nav__link" href="#muzyka">Muzyka</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <section class="section" id="o-mnie">
+          <p>
+            <button class="button">Usuń audi</button>
+          </p>
+          <h2 class="section__title">tak o zdjecie audi rs8</h2>
+          <div class="section__image-container">
+            <img class="section__image" src="https://i.ibb.co/wghrb1R/obraz.png" alt="obraz" />
+          </div>
+        </section>
+
+        <section class="section" id="hobby">
+          <h2 class="section__title">Hobby</h2>
+          <div class="pudelko">
+            <p>Studiuje na <strong>ekonomiku</strong> drugi rok informatyki</p>
+            <p>
+              lubie grac w tenisa<br />militaria
+              <span class="coloured__item">muzyke </span>
+              i silownie
+            </p>
+          </div>
+        </section>
+        <section class="section" id="muzyka">
+          <h2 class="section__title">Muzyka</h2>
+          <p>
+            mam 20 lat <b>mieszkam w Poznaniu</b> mam w domu kota
+            <i>gram na gitarze</i>
+            <em>czasem jezdze na rowerze</em>
+          </p>
+          <h3>Moja tabela z ulubioną muzyką</h3>
+          <table class="moja__tabela">
+            <thead>
+              <tr>
+                <th>Nr</th>
+                <th>Nazwa albumu</th>
+                <th>Wykonawca</th>
+                <th>Rok Wydania</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>The Way it Ends</td>
+                <td>Currents</td>
+                <td>2020</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>I Let It In And It Took Everything</td>
+                <td>Loathe</td>
+                <td>2020</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Heavener</td>
+                <td>Invent Animate</td>
+                <td>2023</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer__text">&copy; 2024 Moja Strona.</p>
+      </footer>
+    </div>
+  </body>
+</html>

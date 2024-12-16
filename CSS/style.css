@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+}
+
+*,::before, ::after {
+  box-sizing: inherit;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.coloured__item {
+  color: rgb(47, 0, 255);
+}
+
+.pudelko {
+  background-color: #c5c5c5;
+  color: rgb(0, 0, 0);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px;
+  line-height: 1.6;
+  background: linear-gradient(to right, #f0f4f8, #d9e2ec);
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+
+
+
+@media (max-width: 768px) {
+  body {
+    margin: 20px;
+  }
+
+  .container {
+    width: 100%;
+    max-width: none;
+    margin: auto;
+  }
+}
+

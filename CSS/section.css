@@ -1,0 +1,40 @@
+.section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  .section__title {
+    font-size: 2rem;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .section__subtitle {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  .section__image-container {
+    text-align: center;
+  }
+  
+  .section__image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .box {
+    background-color: #c5c5c5;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .box__highlight {
+    color: rgb(47, 0, 255);
+  }
