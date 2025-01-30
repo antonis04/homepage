@@ -9,6 +9,7 @@
   }
   
   .section__title {
+    text-indent: 20px;
     font-size: 2rem;
     color: #444;
     margin-bottom: 10px;
@@ -24,7 +25,9 @@
   }
   
   .section__image {
-    max-width: 100%;
+    object-fit: cover;
+    object-position: 20% 30%;
+    max-width: calc(100% - 5%);
     height: auto;
   }
   
@@ -37,4 +40,11 @@
   
   .box__highlight {
     color: rgb(47, 0, 255);
+  }
+
+  .element__decoration {
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: teal;
+    text-transform: capitalize;
   }
