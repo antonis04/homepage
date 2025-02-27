@@ -4,27 +4,27 @@
     }
     welcome();
     
-    const przycisk = document.querySelector(".button");
-    const zdjecieContainer = document.querySelector(".section__image-container");
+    const button = document.querySelector(".button");
+    const imageContainer = document.querySelector(".section__image-container");
 
     const createImage = () => {
-        let noweZdjecie = document.createElement("img");
-        noweZdjecie.src = "https://i.ibb.co/wghrb1R/obraz.png";
-        noweZdjecie.alt = "Audi RS8";
-        noweZdjecie.classList.add("section__image");
-        return noweZdjecie;
+        let newImage = document.createElement("img");
+        newImage.src = "https://i.ibb.co/wghrb1R/obraz.png";
+        newImage.alt = "Audi RS8";
+        newImage.classList.add("section__image");
+        return newImage;
     };
 
     const toggleImage = () => {
-        let zdjecie = zdjecieContainer.querySelector(".section__image");
-        if (zdjecie) {
-            zdjecie.remove();
-            przycisk.textContent = "Pokaż audi";
+        let image = imageContainer.querySelector(".section__image");
+        if (image) {
+            image.remove();
+            button.textContent = "Show audi";
         } else {
-            zdjecieContainer.appendChild(createImage());
-            przycisk.textContent = "Ukryj audi";
+            imageContainer.appendChild(createImage());
+            button.textContent = "Hide audi";
         }
     };
 
-    przycisk.addEventListener("click", toggleImage);
+    button.addEventListener("click", toggleImage);
 }
