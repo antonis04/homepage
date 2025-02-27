@@ -1,6 +1,6 @@
-# Antoni Samol - moja strona
+# Antoni Samol - personal Homepage
 ## Demo
 https://antonis04.github.io/homepage/
 
-## To jest moja pierwsza strona 
-### Projekt zrobiony z konwencją BEM
+## This is my first website 
+### Project made with BEM convention
