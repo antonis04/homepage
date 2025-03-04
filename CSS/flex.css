@@ -35,6 +35,5 @@
 }
 
 .flex__item--last {
-  grid-column-start: 2;
-  grid-row-end: 1;
+  grid-area: 1 / 2 / span 2 / span 3;
 }
