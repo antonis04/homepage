@@ -1,0 +1,12 @@
+form {
+  margin-bottom: 50px;
+}
+
+form input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+form button {
+  padding: 10px;
+}
