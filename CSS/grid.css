@@ -1,0 +1,29 @@
+.grid {
+  display: grid;
+  margin: 50px;
+  width: 100%;
+  height: auto;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  grid-gap: 5px; /* Further reduced gap between grid items */
+  justify-items: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+}
+
+.grid__item {
+  padding: 20px;
+  color: white;
+  background: teal;
+  border: 20px solid black;
+}
+
+@media (max-width: 768px) {
+  .grid__item {
+    flex-basis: 51%;
+    flex-grow: 1;
+  }
+}
