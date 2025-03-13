@@ -17,7 +17,14 @@
   background: teal;
   margin: 20px;
   flex-basis: 20%;
-  border: 20px solid black; /* Apply border to all flex items */
+  border: 20px solid black;
+  transition: transform 2s linear;
+  transform-origin: right bottom;
+}
+
+.flex__item:hover {
+  background: red;
+  transform:rotate(90deg)
 }
 
 @media (max-width: 768px) {
